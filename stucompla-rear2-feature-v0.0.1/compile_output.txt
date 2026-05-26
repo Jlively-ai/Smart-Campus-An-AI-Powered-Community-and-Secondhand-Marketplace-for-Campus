@@ -1,0 +1,42 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.mrxu:stucompla-rear2 >----------------------
+[INFO] Building stucompla-rear2 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ stucompla-rear2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 14 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ stucompla-rear2 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 178 source files to D:\Desktop\Javaweb\stuSecond-public-master\stucompla-rear2-feature-v0.0.1\target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Desktop/Javaweb/stuSecond-public-master/stucompla-rear2-feature-v0.0.1/src/main/java/com/mrxu/stucomplarear2/controller/StatsController.java:[70,13] 找不到符号
+  符号:   类 CategoryMapper
+  位置: 类 com.mrxu.stucomplarear2.controller.StatsController
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.437 s
+[INFO] Finished at: 2026-05-24T05:33:28+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project stucompla-rear2: Compilation failure
+[ERROR] /D:/Desktop/Javaweb/stuSecond-public-master/stucompla-rear2-feature-v0.0.1/src/main/java/com/mrxu/stucomplarear2/controller/StatsController.java:[70,13] 找不到符号
+[ERROR]   符号:   类 CategoryMapper
+[ERROR]   位置: 类 com.mrxu.stucomplarear2.controller.StatsController
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
