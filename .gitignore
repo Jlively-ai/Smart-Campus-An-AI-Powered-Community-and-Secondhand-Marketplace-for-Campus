@@ -1,11 +1,17 @@
+# ===== 后端构建/输出 =====
 /stucompla-rear2-feature-v0.0.1/target/
 /classes/
 /out/
-!.mvn/wrapper/maven-wrapper.jar
 *.zip
+
+# ===== Maven 包装（保留必要 jar）=====
+!.mvn/wrapper/maven-wrapper.jar
+
+# ===== 前端依赖 =====
 /admin/stucompla-front-admin-feature-v0.0.1/node_modules/
 /stucompla-front-feature-v0.0.1/node_modules/
-### STS ###
+
+# ===== STS / Eclipse =====
 .apt_generated
 .classpath
 .factorypath
@@ -14,19 +20,27 @@
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
+# ===== IntelliJ IDEA =====
+.idea/
 *.iws
 *.iml
 *.ipr
-.mvn
+.mvn/
 mvnw
 mvnw.cmd
 
-### NetBeans ###
+# ===== NetBeans =====
 /nbproject/private/
 /build/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
+
+# ===== 通用建议（建议加上）=====
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+.vscode/
